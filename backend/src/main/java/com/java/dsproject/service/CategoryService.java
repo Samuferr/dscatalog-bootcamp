@@ -61,7 +61,7 @@ public class CategoryService {
 
 	}
 
-	public Object delete(Long id) {
+	public void delete(Long id) {
 		try {
 			repository.deleteById(id);
 		} catch (EmptyResultDataAccessException e) {
