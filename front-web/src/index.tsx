@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <h1>
-      Hello!!!!
-    </h1>
-    <h1>
-      Olá
-    </h1>
-  </React.StrictMode>,
-  document.getElementById('root')
+  <App />,
+ document.getElementById('root')
 );
 
 
